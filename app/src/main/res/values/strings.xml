@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Traffic Code Quiz</string>
+    <string name="submit_answer">submit answers</string>
+    <string name="reset">reset</string>
+    <string name="welcome">Welcome to the Czech Traffic Code quiz! </string>
+    /**
+    * Questions
+    */
+    <string name="questionNo1">1) Who has the right of way at the intersection with no signs?</string>
+    <string name="questionNo2">2) What is the speed limit in pedestrian zone? </string>
+    <string name="questionNo3">3) Which of following things are the part of required equipment? </string>
+    <string name="questionNo4">4) What is the speed limit outside pedestrian area?</string>
+    <string name="questionNo5">5) Which side of the road do we use? </string>
+    <string name="questionNo6">6) In case of fuel engine, the oil must be replaced every ... kilometres. </string>
+    <string name="questionNo7">7) What is the speed limit on highway? </string>
+    <string name="questionNo8">8) Which of following signs mean \'you are on the priority road\'? </string>
+    <string name="questionNo9">9) What do we have to check before driving a car? </string>
+    <string name="questionNo10">10) Seatbelts are obligatory for: </string>
+    /**
+    * Answers
+    */
+    <string name="largest">The largest or heaviest car </string>
+    <string name="right">The car coming from the right side </string>
+    <string name="left">The car coming from the left side </string>
+    <string name="q2units">Kilometres per hour</string>
+    <string name="q7units">Kilometres</string>
+    <string name="tyre">Extra tyre</string>
+    <string name="fuel">Extra fuel</string>
+    <string name="bulbs">Extra light bulbs</string>
+    <string name="manual">Car manual</string>
+    <string name="aidkit">First aid kit</string>
+    <string name="extinguisher">Fire extinguisher</string>
+    <string name="q4speed1">90 kph</string>
+    <string name="q4speed2">80 kph</string>
+    <string name="q4speed3">70 kph</string>
+    <string name="full">Full width</string>
+    <string name="lefts">Left</string>
+    <string name="rights">Right</string>
+    <string name="q7speed1">130 kph</string>
+    <string name="q7speed2">140 kph</string>
+    <string name="q7speed3">120 kph</string>
+    <string name="wheels">Wheels</string>
+    <string name="brakes">Brakes</string>
+    <string name="color">Car colour</string>
+    <string name="sun">Sun position</string>
+    <string name="famount">Amount of fuel</string>
+    <string name="wind">Wind direction</string>
+    <string name="driver">Driver</string>
+    <string name="allpass">All passengers</string>
+    <string name="aggpass">Aggressive passengers</string>
+    /**
+    * Toast messages
+    */
+    <string name="toast1">%1$s, your score is %2$d. Please don\'t drive! </string>
+    <string name="toast2">%1$s, your score is %2$d. Take some lessons before driving a car. </string>
+    <string name="toast3">%1$s, your score is %2$d. Well done %1$s! You probably drive regularly. </string>
+    <string name="toast4">%1$s, your score is %2$d. Awesome, you can start own driving school! </string>
+    <string name="title_activity_user_name">Type your name here</string>
+
+
+</resources>

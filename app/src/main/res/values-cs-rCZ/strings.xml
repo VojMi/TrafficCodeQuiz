@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test pravidel silničního provozu</string>
+    <string name="welcome">Test pravidel silničního provozu</string>
+    <string name="submit_answer">Odeslat odpovědi</string>
+    <string name="reset">Vymazat</string>
+    <string name="title_activity_user_name">Zde napiš své jméno</string>
+    /**
+    * Questions
+    */
+    <string name="questionNo1">1) Kdo má přednost v křižovatce bez dopravního značení?</string>
+    <string name="questionNo2">2) Jaká je maximální povolená rychlost v obci?</string>
+    <string name="questionNo3">3) Které z těchto položek jsou součástí povinné výbavy?</string>
+    <string name="questionNo4">4) Jaká je maximální povolená rychlost mimo obec?</string>
+    <string name="questionNo5">5) Na které straně komunikace jezdíme?</string>
+    <string name="questionNo6">6) U benzínového motoru měníme olej každých ... kilometrů.</string>
+    <string name="questionNo7">7) Jaká je maximální povolená rychlost na dálnici?</string>
+    <string name="questionNo8">8) Která značka znamená "hlavní silnice"?</string>
+    <string name="questionNo9">9) Co všechno kontrolujeme před startem automobilu? </string>
+    <string name="questionNo10">10) Bezpečnostní pásy musí použít:</string>
+    /**
+    * Answers
+    */
+    <string name="largest">Největší nebo nejtěžší auto</string>
+    <string name="right">Auto jedoucí zprava</string>
+    <string name="left">Auto jedoucí zleva</string>
+    <string name="q2units">Kilometrů v hodině</string>
+    <string name="q7units">Kilometrů</string>
+    <string name="tyre">Náhradní kolo</string>
+    <string name="fuel">Benzín navíc</string>
+    <string name="bulbs">Náhradní žárovky</string>
+    <string name="manual">Návod k použití</string>
+    <string name="aidkit">Lékárnička</string>
+    <string name="extinguisher">Hasící přístroj</string>
+    <string name="q4speed1">90 km\\h</string>
+    <string name="q4speed2">80 km\\h</string>
+    <string name="q4speed3">70 km\\h</string>
+    <string name="full">Po celé šířce</string>
+    <string name="lefts">Vlevo</string>
+    <string name="rights">Vpravo</string>
+    <string name="q7speed1">130 km\\h</string>
+    <string name="q7speed2">140 km\\h</string>
+    <string name="q7speed3">120 km\\h</string>
+    <string name="wheels">Kola</string>
+    <string name="brakes">Brzdy</string>
+    <string name="color">Barvu auta</string>
+    <string name="sun">Pozici slunce</string>
+    <string name="famount">Stav benzínu</string>
+    <string name="wind">Směr větru</string>
+    <string name="driver">Řidič</string>
+    <string name="allpass">Všichni pasažéři</string>
+    <string name="aggpass">Agresivní pasažéři</string>
+    /**
+    * Toast messages
+    */
+    <string name="toast1">%1$s, získal(a) jsi %2$d bodů. Prosím, neřiď automobil! </string>
+    <string name="toast2">%1$s, získal(a) jsi %2$d bodů. Ještě to chce trochu cviku, než vyjedeš. </string>
+    <string name="toast3">%1$s, získal(a) jsi %2$d bodů. Dobře %1$s! Vypadá to, že řídíš pravidelně. </string>
+    <string name="toast4">%1$s, získal(a) jsi %2$d bodů. Úžasné, můžeš si otevřít autoškolu! </string>
+</resources>
