@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
      * Score is set to 0 points.
      */
     private int score = 0;
-
-
     private RadioGroup question1;
     private EditText question2;
     private CheckBox chb3Tyre;
@@ -107,15 +105,11 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int radioButtonId) {
                 switch (radioGroup.getId()) {
                     case R.id.questionNo1:
-                        if (R.id.questionNo1_right == radioButtonId) {
-                            /**
-                             * Correct scenario.
-                             */
-                            isChoiceRight = true;
-                            /**
-                             * Incorrect scenario.
-                             */
-                        } else isChoiceRight = false;
+                        /**
+                         * Correct scenario.
+                         */ /**
+                     * Incorrect scenario.
+                     */isChoiceRight = R.id.questionNo1_right == radioButtonId;
                         break;
                 }
             }
@@ -128,15 +122,11 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int radioButtonId) {
                 switch (radioGroup.getId()) {
                     case R.id.questionNo4:
-                        if (R.id.questionNo4_90 == radioButtonId) {
-                            /**
-                             * Correct scenario.
-                             */
-                            isChoiceQ4Speed = true;
-                            /**
-                             * Incorrect scenario.
-                             */
-                        } else isChoiceQ4Speed = false;
+                        /**
+                         * Correct scenario.
+                         */ /**
+                     * Incorrect scenario.
+                     */isChoiceQ4Speed = R.id.questionNo4_90 == radioButtonId;
                         break;
                 }
             }
@@ -150,15 +140,11 @@ public class MainActivity extends AppCompatActivity {
                 switch (radioGroup.getId()) {
                     case R.id.questionNo5:
 
-                        if (R.id.questionNo5_rights == radioButtonId) {
-                            /**
-                             * Correct scenario.
-                             */
-                            isChoiceRightS = true;
-                            /**
-                             * Incorrect scenario.
-                             */
-                        } else isChoiceRightS = false;
+                        /**
+                         * Correct scenario.
+                         */ /**
+                     * Incorrect scenario.
+                     */isChoiceRightS = R.id.questionNo5_rights == radioButtonId;
                         break;
                 }
             }
@@ -171,15 +157,11 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int radioButtonId) {
                 switch (radioGroup.getId()) {
                     case R.id.questionNo7:
-                        if (R.id.questionNo7_q7speed1 == radioButtonId) {
-                            /**
-                             * Correct scenario.
-                             */
-                            isChoiceQ7Speed = true;
-                            /**
-                             * Incorrect scenario.
-                             */
-                        } else isChoiceQ7Speed = false;
+                        /**
+                         * Correct scenario.
+                         */ /**
+                     * Incorrect scenario.
+                     */isChoiceQ7Speed = R.id.questionNo7_q7speed1 == radioButtonId;
                         break;
                 }
             }
@@ -192,15 +174,11 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int radioButtonId) {
                 switch (radioGroup.getId()) {
                     case R.id.questionNo8:
-                        if (R.id.questionNo8_priorityroad == radioButtonId) {
-                            /**
-                             * Correct scenario.
-                             */
-                            isChoicePriorityR = true;
-                            /**
-                             * Incorrect scenario.
-                             */
-                        } else isChoicePriorityR = false;
+                        /**
+                         * Correct scenario.
+                         */ /**
+                     * Incorrect scenario.
+                     */isChoicePriorityR = R.id.questionNo8_priorityroad == radioButtonId;
                         break;
                 }
             }
@@ -213,15 +191,11 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int radioButtonId) {
                 switch (radioGroup.getId()) {
                     case R.id.questionNo10:
-                        if (R.id.questionNo10_allpas == radioButtonId) {
-                            /**
-                             * Correct scenario.
-                             */
-                            isChoiceAllPass = true;
-                            /**
-                             * Incorrect scenario.
-                             */
-                        } else isChoiceAllPass = false;
+                        /**
+                         * Correct scenario.
+                         */ /**
+                     * Incorrect scenario.
+                     */isChoiceAllPass = R.id.questionNo10_allpas == radioButtonId;
                         break;
                 }
             }
@@ -250,39 +224,39 @@ public class MainActivity extends AppCompatActivity {
             score = +1;
         }
         if (isChoiceQ4Speed) {
-            score += +1;
+            score += 1;
         }
         if (isChoiceRightS) {
-            score += +1;
+            score += 1;
         }
         if (isChoiceQ7Speed) {
-            score += +1;
+            score += 1;
         }
         if (isChoicePriorityR) {
-            score += +1;
+            score += 1;
         }
         if (isChoiceAllPass) {
-            score += +1;
+            score += 1;
         }
         /**
          * Check of question No.2 EditView.
          */
         String answerForQuestion2 = question2.getText().toString();
         if (answerForQuestion2.equals("50")) {
-            score += +1;
+            score += 1;
         }
         /**
          * Check of question No.6 EditView.
          */
         String answerForQuestion6 = question6.getText().toString();
         if (answerForQuestion6.equals("15000")) {
-            score += +1;
+            score += 1;
         }
         /**
          * Check of question No.3 CheckBox.
          */
         if (chb3Tyre.isChecked() && chb3AidKit.isChecked() && chb3Bulbs.isChecked()) {
-            score += +1;
+            score += 1;
             if (chb3Fuel.isChecked() || chb3Manual.isChecked() || chb3Extinguisher.isChecked()) {
                 score -= 1;
             }
@@ -303,22 +277,22 @@ public class MainActivity extends AppCompatActivity {
          */
 
         if (score < 5) {
-            Toast.makeText(this, getString(R.string.toast1, userName, score), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.toast1, userName, score), Toast.LENGTH_SHORT).show();
             score = 0;
             return;
         }
         if (5 < score && score <= 7) {
-            Toast.makeText(this, getString(R.string.toast2, userName, score), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.toast2, userName, score), Toast.LENGTH_SHORT).show();
             score = 0;
             return;
         }
         if (7 < score && score <= 9) {
-            Toast.makeText(this, getString(R.string.toast3, userName, score), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.toast3, userName, score), Toast.LENGTH_SHORT).show();
             score = 0;
             return;
         }
         if (9 < score) {
-            Toast.makeText(this, getString(R.string.toast4, userName, score), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.toast4, userName, score), Toast.LENGTH_SHORT).show();
             score = 0;
             return;
         }

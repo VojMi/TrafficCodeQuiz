@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -20,17 +19,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/marginBottomTitle"
             android:text="@string/welcome"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="30sp"
+            android:textSize="@dimen/titleTextSize"
             android:textStyle="bold" />
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="180dp"
+            android:layout_height="@dimen/pictureSize"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/marginBottomTitle"
             android:src="@drawable/logo" />
 
         <EditText
@@ -39,15 +38,15 @@
             android:layout_height="wrap_content"
             android:hint="@string/title_activity_user_name"
             android:inputType="textPersonName"
-            android:textSize="24sp" />
+            android:textSize="@dimen/titleTextSize" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:text="@string/questionNo1"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -79,11 +78,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo2"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <EditText
@@ -96,11 +95,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo3"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RelativeLayout
@@ -155,11 +154,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo4"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -191,11 +190,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo5"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -227,11 +226,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo6"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <EditText
@@ -244,11 +243,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo7"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -280,11 +279,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo8"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -330,11 +329,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo9"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RelativeLayout
@@ -389,11 +388,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/questionNo10"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="@dimen/TextSize"
             android:textStyle="bold" />
 
         <RadioGroup
